@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(63,0,82,1) 35%, rgba(82,0,93,1) 66%, rgba(159,0,78,1) 100%);
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+button{
+    color: rgb(17, 0, 0);
+    border-radius: 50px;
+    width: 100px;
+    padding: 5px;
+    margin-left: 10px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+input{
+    border-radius: 100px;
+    border: solid 1px;
+    border-color: white;
+    background-color: #ffffff00;
+    color: white;
+    padding: 10px;
+    width: 40%;
+    margin-bottom: 10px;
+    transition: 2s;
+
+
+}
+
+
+
+button:hover{
+    background-color: #ffffff00;
+    color: white;
+    outline: solid 2px;
+}
+
+h1{
+    color: white;
+}
+
+.container {
+    background: #eeeeee2a;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+option{
+    background-color: #ffffff00;
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 300px;
+    background: #ffffff;
+    color: rgb(27, 27, 27);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.options button:hover {
+    background: #0057b300;
+    color: white;
+    outline: solid 2px;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.task button {
+    margin-left: 10px;
+}
+
+input{
+    border-radius: 3px;
+}
